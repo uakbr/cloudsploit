@@ -1,0 +1,14 @@
+name: CloudSploit Scan
+
+on: [push]
+
+jobs:
+  cloudsploit-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run CloudSploit scan
+      run: python cloudsploit-scan.py
