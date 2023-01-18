@@ -11,4 +11,5 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Run CloudSploit scan
-      run: python cloudsploit-scan.py
+      run: python3 cloudsploit-scan.py
+  
