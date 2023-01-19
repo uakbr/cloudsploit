@@ -12,4 +12,5 @@ jobs:
 
     - name: Run CloudSploit scan
       run: python3 cloudsploit-scan.py
+      
   
